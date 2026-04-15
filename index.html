@@ -93,9 +93,17 @@
     }
 
     @keyframes swipe-indicator {
-      0%, 100% { transform: translateX(0); }
-      50% { transform: translateX(5px); }
+
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+
+      50% {
+        transform: translateX(5px);
+      }
     }
+
     .animate-swipe-indicator {
       animation: swipe-indicator 1.5s ease-in-out infinite;
     }
@@ -144,22 +152,22 @@
       </div>
 
       <div class="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-8 -mx-8 px-8 md:mx-0 md:px-0">
-        <!-- Work Card 1 -->
+        <!-- Work Card 1: 俳優オフィシャルサイト -->
         <a href="https://nekotomo22.github.io/rikitokuakira_officialsite/" target="_blank" rel="noopener noreferrer"
           class="work-card block relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
-          <img src="./img/website001.jpeg" alt="力徳明 オフィシャルサイト" class="w-full h-full object-cover"
-            onerror="this.src='https://placehold.co/800x450/1a1a1a/ffffff?text=Actor+Official+Site'">
+          <img src="./img/site01.jpeg" alt="力徳明 オフィシャルサイト" class="w-full h-full object-cover"
+            onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=800'">
           <div class="overlay absolute inset-0 flex flex-col justify-end p-8">
             <span class="text-xs uppercase tracking-[0.2em] mb-2 text-zinc-400">Web Site</span>
             <h3 class="text-xl font-bold">力徳明 オフィシャルサイト</h3>
           </div>
         </a>
 
-        <!-- Work Card 2 -->
+        <!-- Work Card 2: カフェサイト -->
         <a href="https://nekotomo22.github.io/asoorganiccafe/" target="_blank" rel="noopener noreferrer"
           class="work-card block relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
-          <img src="./img/website002.jpeg" alt="ASO ORGANIC CAFE" class="w-full h-full object-cover"
-            onerror="this.src='https://placehold.co/800x450/1a1a1a/ffffff?text=Cafe+Web+Site'">
+          <img src="./img/site02.jpeg" alt="ASO ORGANIC CAFE" class="w-full h-full object-cover"
+            onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=800'">
           <div class="overlay absolute inset-0 flex flex-col justify-end p-8">
             <span class="text-xs uppercase tracking-[0.2em] mb-2 text-zinc-400">Web Site</span>
             <h3 class="text-xl font-bold">ASO ORGANIC CAFE</h3>
@@ -172,7 +180,8 @@
     <div class="mb-24">
       <div class="flex justify-between items-end mb-8 reveal">
         <h4 class="text-2xl font-bold border-l-4 border-white pl-4 tracking-wider">グラフィックデザイン</h4>
-        <div class="md:hidden flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
+        <div
+          class="md:hidden flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
           <span class="text-[9px] tracking-[0.2em] text-zinc-300 font-bold uppercase ml-1">Swipe</span>
           <svg class="w-3 h-3 text-white animate-swipe-indicator" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -180,9 +189,11 @@
         </div>
       </div>
 
-      <div class="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-8 -mx-8 px-8 md:mx-0 md:px-0">
+      <div
+        class="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-8 -mx-8 px-8 md:mx-0 md:px-0">
         <!-- Graphic Card 1 -->
-        <div class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
+        <div
+          class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
           <img src="./img/graphic001.jpeg" alt="エンタメ特集ビジュアル" class="w-full h-full object-cover"
             onerror="this.src='https://placehold.co/800x450/1a1a1a/ffffff?text=Work+01'">
           <div class="overlay absolute inset-0 flex flex-col justify-end p-8">
@@ -191,7 +202,8 @@
           </div>
         </div>
         <!-- Graphic Card 2 -->
-        <div class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
+        <div
+          class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
           <img src="./img/graphic002.jpeg" alt="エンタメ特集ビジュアル" class="w-full h-full object-cover"
             onerror="this.src='https://placehold.co/800x450/1a1a1a/ffffff?text=Work+02'">
           <div class="overlay absolute inset-0 flex flex-col justify-end p-8">
@@ -200,7 +212,8 @@
           </div>
         </div>
         <!-- Graphic Card 3 -->
-        <div class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
+        <div
+          class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
           <img src="./img/graphic003.jpeg" alt="データ解説・報道グラフ" class="w-full h-full object-cover"
             onerror="this.src='https://placehold.co/800x450/1a1a1a/ffffff?text=Work+03'">
           <div class="overlay absolute inset-0 flex flex-col justify-end p-8">
@@ -209,7 +222,8 @@
           </div>
         </div>
         <!-- Graphic Card 4 -->
-        <div class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
+        <div
+          class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
           <img src="./img/graphic004.jpeg" alt="エンタメ特集ビジュアル" class="w-full h-full object-cover"
             onerror="this.src='https://placehold.co/800x450/1a1a1a/ffffff?text=Work+04'">
           <div class="overlay absolute inset-0 flex flex-col justify-end p-8">
@@ -218,7 +232,8 @@
           </div>
         </div>
         <!-- Graphic Card 5 -->
-        <div class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
+        <div
+          class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
           <img src="./img/graphic005.jpeg" alt="スポーツグラフィック" class="w-full h-full object-cover"
             onerror="this.src='https://placehold.co/800x450/1a1a1a/ffffff?text=Work+05'">
           <div class="overlay absolute inset-0 flex flex-col justify-end p-8">
@@ -227,7 +242,8 @@
           </div>
         </div>
         <!-- Graphic Card 6 -->
-        <div class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
+        <div
+          class="work-card relative aspect-video overflow-hidden bg-zinc-900 reveal group flex-none w-[80vw] md:w-auto snap-center">
           <img src="./img/graphic006.jpeg" alt="エンタメ特集ビジュアル" class="w-full h-full object-cover"
             onerror="this.src='https://placehold.co/800x450/1a1a1a/ffffff?text=Work+06'">
           <div class="overlay absolute inset-0 flex flex-col justify-end p-8">
@@ -243,8 +259,10 @@
       <div class="flex justify-between items-end mb-8 reveal">
         <h4 class="text-2xl font-bold border-l-4 border-white pl-4 tracking-wider">動画制作</h4>
       </div>
-      <div class="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-8 -mx-8 px-8 md:mx-0 md:px-0">
-        <div class="relative aspect-video overflow-hidden bg-zinc-900 reveal flex-none w-[80vw] md:w-auto snap-center shadow-lg">
+      <div
+        class="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-8 -mx-8 px-8 md:mx-0 md:px-0">
+        <div
+          class="relative aspect-video overflow-hidden bg-zinc-900 reveal flex-none w-[80vw] md:w-auto snap-center shadow-lg">
           <iframe class="w-full h-full absolute inset-0"
             src="https://www.youtube.com/embed/BE1S05eVIYU?si=qK-iiBn6_9GyEjIz" title="YouTube video player"
             frameborder="0"
